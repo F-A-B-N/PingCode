@@ -1,2 +1,2 @@
 # PingCode
-Ping code in python using cpu threads.
+Ping code in python using cpu threads with visual interface.
