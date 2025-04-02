@@ -1,2 +1,28 @@
 # PingCode
-Ping code in python using cpu threads with visual interface.
+
+A Python-based network ping utility with multi-threading support and visual interface.
+
+## Features
+
+- Multi-threaded ping implementation for efficient network probing
+- Visual interface showing ping results in real-time
+- Configurable ping parameters (target host, threads)
+- Cross-platform compatibility (Windows, Linux, macOS)
+
+## Requirements
+
+- Python 3.6+
+- Required packages:
+  - `ping3` (for ICMP ping functionality)
+  - `tkinter` (for the GUI interface - usually included with Python)
+
+## Installation
+
+Clone this repository or download the `ping.py` file
+
+## Usage
+
+Run the application with:
+```bash
+python ping.py
+```
