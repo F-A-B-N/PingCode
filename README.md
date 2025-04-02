@@ -13,8 +13,8 @@ A Python-based network ping utility with multi-threading support and visual inte
 
 - Python 3.6+
 - Required packages:
-  - `ping3` (for ICMP ping functionality)
-  - `tkinter` (for the GUI interface - usually included with Python)
+  - `platform`
+  - `tkinter`
 
 ## Installation
 
