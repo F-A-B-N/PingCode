@@ -15,6 +15,10 @@ A Python-based network ping utility with multi-threading support and visual inte
 - Required packages:
   - `platform`
   - `tkinter`
+  - `subprocess`
+  - `threading`
+  - `multiprocessing`
+
 
 ## Installation
 
