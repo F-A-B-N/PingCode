@@ -1,32 +1,47 @@
 # PingCode
 
-A Python-based network ping utility with multi-threading support and visual interface.
+A Python-based network ping utility with multi-threading support and a visual interface.
 
 ## Features
 
 - Multi-threaded ping implementation for efficient network probing
-- Visual interface showing ping results in real-time
-- Configurable ping parameters (target host, threads)
-- Cross-platform compatibility (Windows, Linux, macOS)
+- Real-time visual interface showing ping results
+- Configurable target host and thread count
+- Cross-platform: Windows, Linux, macOS
 
-## Requirements
+## Download
 
-- Python 3.6+
-- Required packages:
-  - `platform`
-  - `tkinter`
-  - `subprocess`
-  - `threading`
-  - `multiprocessing`
+Pre-compiled binaries are available in [Releases](https://github.com/F-A-B-N/PingCode/releases) — no Python installation required.
 
+- `ping.exe` — Windows
 
-## Installation
+## Run from source
 
-Clone this repository or download the `ping.py` file
+Requires Python 3.6+ and Tkinter.
 
-## Usage
-
-Run the application with:
 ```bash
 python ping.py
 ```
+
+On Debian/Ubuntu, Tkinter may need to be installed separately:
+
+```bash
+sudo apt install python3-tk
+```
+
+## Usage
+
+1. Enter a target host (IP or domain)
+2. Set the number of threads
+3. Click Start
+
+**Warning:** Use threading responsibly, only against systems you own or have permission to test. Too many threads can overheat a machine or accidentally DDoS a target.
+
+## Notes
+
+- All other modules used (`platform`, `subprocess`, `threading`, `multiprocessing`) are part of the Python standard library.
+- Built and tested on Windows and Linux.
+
+## License
+
+MIT
